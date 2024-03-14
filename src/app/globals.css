@@ -18,10 +18,20 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  background: white; /*linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb));*/
+}
+
+.sidebutton {
+  display: inline-flex;
+  padding: 10px;
+  &:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+    border-radius: 9999px;
+  }
 }
